@@ -1,6 +1,6 @@
-## Documentacion del proceso
+# Documentacion del proceso
 
-## Índice
+# Índice
 ### 1. Descripción general del objetivo.
 ### 2. Estructura final.
 ### 3. Separación del fichero application.properties.
