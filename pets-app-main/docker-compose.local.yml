@@ -10,3 +10,16 @@ services:
       condition: service_healthy
     ports:
     - "8080:8080"
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE: pets
+      MYSQL_USER: usuario_app
+      MYSQL_PASSWORD: clave_app
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
