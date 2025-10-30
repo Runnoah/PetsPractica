@@ -15,7 +15,7 @@ services:
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD:
+      MYSQL_ROOT_PASSWORD: 
       MYSQL_DATABASE: pets
       MYSQL_USER: usuario_app
       MYSQL_PASSWORD: clave_app
@@ -23,3 +23,14 @@ services:
       - "3306:3306"
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
+    
+    phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      restart: always
+      ports:
+        - "8085:80"
+      environment:
+        PMA_HOST: db
+        PMA_PORT: 3306
+      depends_on:
+        - db
