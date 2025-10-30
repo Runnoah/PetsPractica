@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    container_name: pets-api
+    environment:
+      SPRING_PROFILES_ACTIVE: neon
+    depends_on:
+     db:
+      condition: service_healthy
+    ports:
+    - "8080:8080"
