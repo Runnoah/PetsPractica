@@ -25,3 +25,14 @@ En la carpeta: src/main/resources está el application.properties, en la prácti
 
 Montamos los archivos propios para poder montar nuestros contenedores en Docker, como principal el archivo "Dockerfile" en el que metemos el contenido dado en nuestra tarea y los docker-compose, se hacen dos dado que una parte lo hacemos en local y la otra en neon.
 
+#### 5. Flujo de trabajo en GitHub.
+
+
+
+#### 6. Evidencias gráficas.
+
+Si hubiera evidencias gráficas estarían en la carpetas de capturas.
+
+#### 7. Conclusiones.
+
+La conclusión a la que le saco esta práctica es que soy bastante inútil en este ámbito y que estoy muy perdido.
