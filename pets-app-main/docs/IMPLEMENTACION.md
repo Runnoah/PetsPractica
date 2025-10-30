@@ -27,7 +27,7 @@ Montamos los archivos propios para poder montar nuestros contenedores en Docker,
 
 #### 5. Flujo de trabajo en GitHub.
 
--
+Uso de GitHub Desktop. 
 
 #### 6. Evidencias gráficas.
 
