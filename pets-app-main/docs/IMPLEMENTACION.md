@@ -1,13 +1,13 @@
 ## Documentacion del proceso
 
 ## Índice
-# Descripción general del objetivo.
-# Estructura final.
-# Separación del fichero application.properties.
-# Resumen del Dockerfile y de los ficheros docker-compose.
-# Descripción del flujo de trabajo en GitHub.
-# Evidencias gráficas de funcionamiento.
-# Conclusiones.
+### Descripción general del objetivo.
+### Estructura final.
+### Separación del fichero application.properties.
+### Resumen del Dockerfile y de los ficheros docker-compose.
+### Descripción del flujo de trabajo en GitHub.
+### Evidencias gráficas de funcionamiento.
+### Conclusiones.
 
 #### 1. Descripción general.
 
